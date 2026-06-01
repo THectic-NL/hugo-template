@@ -9,11 +9,11 @@ A minimal Hugo starter with dark/light mode, a card component, and a GitHub link
 ## Usage
 
 ```bash
-git clone https://github.com/bep/hugositetemplate
-cd hugositetemplate
+git clone https://github.com/THectic-NL/hugo-template.git
+cd hugo-template
 hugo server
 ```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is originally licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

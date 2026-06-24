@@ -1,8 +1,5 @@
-baseURL = "https://gohugo.io/"
-title   = "My Hugo Site"
-
-[params]
-  github = "https://github.com/bep/hugositetemplate"
+baseURL = "https://example.com/"
+title   = "My Site"
 
 # Only home for now, remove what you want.
 disableKinds = [

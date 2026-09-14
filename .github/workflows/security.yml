@@ -39,7 +39,7 @@ jobs:
     permissions:
       contents: read
     container:
-      image: semgrep/semgrep@sha256:67319956da3dcb58baf5b322899c15458e3963e7018a86aeeb5cd224e69cb77a
+      image: semgrep/semgrep@sha256:34ab619bf1391a24bfda3f05debd0d8a6ce3093c2d5f9d39cfc00f83c1397823
     # Renovate-PR's overslaan: daar is geen token beschikbaar
     if: github.actor != 'dependabot[bot]' && github.actor != 'renovate[bot]'
     steps:
@@ -86,7 +86,7 @@ jobs:
       # Advanced Security staat organisatiebreed aan, dus dit werkt ook op een
       # privérepository.
       - name: Upload results to GitHub Security
-        uses: github/codeql-action/upload-sarif@cdf488f595d80d6e07e03d4674febd5ab45fa938 # v4.37.9
+        uses: github/codeql-action/upload-sarif@b96794f015dfd88f77b49b1c93e0fa7110f94c63 # v4.38.0
         continue-on-error: true
         with:
           sarif_file: scorecard.sarif
